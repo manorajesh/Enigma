@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3350E42A42CBDF000C959D /* EngimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350E32A42CBDF000C959D /* EngimaApp.swift */; };
+		3F3350E62A42CBDF000C959D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350E52A42CBDF000C959D /* ContentView.swift */; };
+		3F3350E82A42CBE1000C959D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3350E72A42CBE1000C959D /* Assets.xcassets */; };
+		3F3350EB2A42CBE1000C959D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3350EA2A42CBE1000C959D /* Preview Assets.xcassets */; };
+		3F3350F62A42CBE2000C959D /* EngimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350F52A42CBE2000C959D /* EngimaTests.swift */; };
+		3F3351002A42CBE2000C959D /* EngimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350FF2A42CBE2000C959D /* EngimaUITests.swift */; };
+		3F3351022A42CBE2000C959D /* EngimaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351012A42CBE2000C959D /* EngimaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3350F22A42CBE2000C959D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3350D82A42CBDF000C959D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3350DF2A42CBDF000C959D;
+			remoteInfo = Engima;
+		};
+		3F3350FC2A42CBE2000C959D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3350D82A42CBDF000C959D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3350DF2A42CBDF000C959D;
+			remoteInfo = Engima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3350E02A42CBDF000C959D /* Engima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Engima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3350E32A42CBDF000C959D /* EngimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngimaApp.swift; sourceTree = "<group>"; };
+		3F3350E52A42CBDF000C959D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F3350E72A42CBE1000C959D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3350EA2A42CBE1000C959D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F3350EC2A42CBE1000C959D /* Engima.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Engima.entitlements; sourceTree = "<group>"; };
+		3F3350F12A42CBE2000C959D /* EngimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3350F52A42CBE2000C959D /* EngimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngimaTests.swift; sourceTree = "<group>"; };
+		3F3350FB2A42CBE2000C959D /* EngimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3350FF2A42CBE2000C959D /* EngimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngimaUITests.swift; sourceTree = "<group>"; };
+		3F3351012A42CBE2000C959D /* EngimaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngimaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3350DD2A42CBDF000C959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3350EE2A42CBE2000C959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3350F82A42CBE2000C959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3350D72A42CBDF000C959D = {
+			isa = PBXGroup;
+			children = (
+				3F3350E22A42CBDF000C959D /* Engima */,
+				3F3350F42A42CBE2000C959D /* EngimaTests */,
+				3F3350FE2A42CBE2000C959D /* EngimaUITests */,
+				3F3350E12A42CBDF000C959D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3350E12A42CBDF000C959D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3350E02A42CBDF000C959D /* Engima.app */,
+				3F3350F12A42CBE2000C959D /* EngimaTests.xctest */,
+				3F3350FB2A42CBE2000C959D /* EngimaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3350E22A42CBDF000C959D /* Engima */ = {
+			isa = PBXGroup;
+			children = (
+				3F3350E32A42CBDF000C959D /* EngimaApp.swift */,
+				3F3350E52A42CBDF000C959D /* ContentView.swift */,
+				3F3350E72A42CBE1000C959D /* Assets.xcassets */,
+				3F3350EC2A42CBE1000C959D /* Engima.entitlements */,
+				3F3350E92A42CBE1000C959D /* Preview Content */,
+			);
+			path = Engima;
+			sourceTree = "<group>";
+		};
+		3F3350E92A42CBE1000C959D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F3350EA2A42CBE1000C959D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F3350F42A42CBE2000C959D /* EngimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3350F52A42CBE2000C959D /* EngimaTests.swift */,
+			);
+			path = EngimaTests;
+			sourceTree = "<group>";
+		};
+		3F3350FE2A42CBE2000C959D /* EngimaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3350FF2A42CBE2000C959D /* EngimaUITests.swift */,
+				3F3351012A42CBE2000C959D /* EngimaUITestsLaunchTests.swift */,
+			);
+			path = EngimaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3350DF2A42CBDF000C959D /* Engima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3351052A42CBE2000C959D /* Build configuration list for PBXNativeTarget "Engima" */;
+			buildPhases = (
+				3F3350DC2A42CBDF000C959D /* Sources */,
+				3F3350DD2A42CBDF000C959D /* Frameworks */,
+				3F3350DE2A42CBDF000C959D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Engima;
+			productName = Engima;
+			productReference = 3F3350E02A42CBDF000C959D /* Engima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3350F02A42CBE2000C959D /* EngimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3351082A42CBE2000C959D /* Build configuration list for PBXNativeTarget "EngimaTests" */;
+			buildPhases = (
+				3F3350ED2A42CBE2000C959D /* Sources */,
+				3F3350EE2A42CBE2000C959D /* Frameworks */,
+				3F3350EF2A42CBE2000C959D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3350F32A42CBE2000C959D /* PBXTargetDependency */,
+			);
+			name = EngimaTests;
+			productName = EngimaTests;
+			productReference = 3F3350F12A42CBE2000C959D /* EngimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3350FA2A42CBE2000C959D /* EngimaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F33510B2A42CBE2000C959D /* Build configuration list for PBXNativeTarget "EngimaUITests" */;
+			buildPhases = (
+				3F3350F72A42CBE2000C959D /* Sources */,
+				3F3350F82A42CBE2000C959D /* Frameworks */,
+				3F3350F92A42CBE2000C959D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3350FD2A42CBE2000C959D /* PBXTargetDependency */,
+			);
+			name = EngimaUITests;
+			productName = EngimaUITests;
+			productReference = 3F3350FB2A42CBE2000C959D /* EngimaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3350D82A42CBDF000C959D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3F3350DF2A42CBDF000C959D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3F3350F02A42CBE2000C959D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3F3350DF2A42CBDF000C959D;
+					};
+					3F3350FA2A42CBE2000C959D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3F3350DF2A42CBDF000C959D;
+					};
+				};
+			};
+			buildConfigurationList = 3F3350DB2A42CBDF000C959D /* Build configuration list for PBXProject "Engima" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3350D72A42CBDF000C959D;
+			productRefGroup = 3F3350E12A42CBDF000C959D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3350DF2A42CBDF000C959D /* Engima */,
+				3F3350F02A42CBE2000C959D /* EngimaTests */,
+				3F3350FA2A42CBE2000C959D /* EngimaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3350DE2A42CBDF000C959D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3350EB2A42CBE1000C959D /* Preview Assets.xcassets in Resources */,
+				3F3350E82A42CBE1000C959D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3350EF2A42CBE2000C959D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3350F92A42CBE2000C959D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3350DC2A42CBDF000C959D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3350E62A42CBDF000C959D /* ContentView.swift in Sources */,
+				3F3350E42A42CBDF000C959D /* EngimaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3350ED2A42CBE2000C959D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3350F62A42CBE2000C959D /* EngimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3350F72A42CBE2000C959D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3351002A42CBE2000C959D /* EngimaUITests.swift in Sources */,
+				3F3351022A42CBE2000C959D /* EngimaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3350F32A42CBE2000C959D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3350DF2A42CBDF000C959D /* Engima */;
+			targetProxy = 3F3350F22A42CBE2000C959D /* PBXContainerItemProxy */;
+		};
+		3F3350FD2A42CBE2000C959D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3350DF2A42CBDF000C959D /* Engima */;
+			targetProxy = 3F3350FC2A42CBE2000C959D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F3351032A42CBE2000C959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3351042A42CBE2000C959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F3351062A42CBE2000C959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Engima/Engima.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Engima/Preview Content\"";
+				DEVELOPMENT_TEAM = 48Y89F7LDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mano.Engima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F3351072A42CBE2000C959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Engima/Engima.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Engima/Preview Content\"";
+				DEVELOPMENT_TEAM = 48Y89F7LDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mano.Engima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3F3351092A42CBE2000C959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48Y89F7LDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mano.EngimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Engima.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Engima";
+			};
+			name = Debug;
+		};
+		3F33510A2A42CBE2000C959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48Y89F7LDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mano.EngimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Engima.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Engima";
+			};
+			name = Release;
+		};
+		3F33510C2A42CBE2000C959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48Y89F7LDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mano.EngimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Engima;
+			};
+			name = Debug;
+		};
+		3F33510D2A42CBE2000C959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48Y89F7LDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mano.EngimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Engima;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3350DB2A42CBDF000C959D /* Build configuration list for PBXProject "Engima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3351032A42CBE2000C959D /* Debug */,
+				3F3351042A42CBE2000C959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3351052A42CBE2000C959D /* Build configuration list for PBXNativeTarget "Engima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3351062A42CBE2000C959D /* Debug */,
+				3F3351072A42CBE2000C959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3351082A42CBE2000C959D /* Build configuration list for PBXNativeTarget "EngimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3351092A42CBE2000C959D /* Debug */,
+				3F33510A2A42CBE2000C959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F33510B2A42CBE2000C959D /* Build configuration list for PBXNativeTarget "EngimaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F33510C2A42CBE2000C959D /* Debug */,
+				3F33510D2A42CBE2000C959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3350D82A42CBDF000C959D /* Project object */;
+}
