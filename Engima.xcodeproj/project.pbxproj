@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0ADFC32A43D955001840E2 /* SpeakNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ADFC22A43D955001840E2 /* SpeakNumber.swift */; };
 		3F3350E42A42CBDF000C959D /* EngimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350E32A42CBDF000C959D /* EngimaApp.swift */; };
 		3F3350E62A42CBDF000C959D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350E52A42CBDF000C959D /* ContentView.swift */; };
 		3F3350E82A42CBE1000C959D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3350E72A42CBE1000C959D /* Assets.xcassets */; };
@@ -14,6 +15,16 @@
 		3F3350F62A42CBE2000C959D /* EngimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350F52A42CBE2000C959D /* EngimaTests.swift */; };
 		3F3351002A42CBE2000C959D /* EngimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3350FF2A42CBE2000C959D /* EngimaUITests.swift */; };
 		3F3351022A42CBE2000C959D /* EngimaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351012A42CBE2000C959D /* EngimaUITestsLaunchTests.swift */; };
+		3F3351122A42D0E5000C959D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33510F2A42D0E5000C959D /* BlurView.swift */; };
+		3F3351132A42D0E5000C959D /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351102A42D0E5000C959D /* AlertToast.swift */; };
+		3F3351142A42D0E5000C959D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351112A42D0E5000C959D /* ActivityIndicator.swift */; };
+		3F3351172A43662D000C959D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351162A43662D000C959D /* GameView.swift */; };
+		3F33511B2A4366AD000C959D /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33511A2A4366AD000C959D /* StatisticsView.swift */; };
+		3F3351212A4387C4000C959D /* Engima.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F33511F2A4387C4000C959D /* Engima.xcdatamodeld */; };
+		3F3351232A43884C000C959D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351222A43884C000C959D /* DataController.swift */; };
+		3F3351272A439AB8000C959D /* StatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351262A439AB8000C959D /* StatDetail.swift */; };
+		3F3351292A43A18F000C959D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3351282A43A18F000C959D /* SettingsView.swift */; };
+		3F33512B2A43A4E6000C959D /* NumeralPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33512A2A43A4E6000C959D /* NumeralPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0ADFC22A43D955001840E2 /* SpeakNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakNumber.swift; sourceTree = "<group>"; };
 		3F3350E02A42CBDF000C959D /* Engima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Engima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3350E32A42CBDF000C959D /* EngimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngimaApp.swift; sourceTree = "<group>"; };
 		3F3350E52A42CBDF000C959D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,17 @@
 		3F3350FB2A42CBE2000C959D /* EngimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3350FF2A42CBE2000C959D /* EngimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngimaUITests.swift; sourceTree = "<group>"; };
 		3F3351012A42CBE2000C959D /* EngimaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngimaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F33510F2A42D0E5000C959D /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		3F3351102A42D0E5000C959D /* AlertToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertToast.swift; sourceTree = "<group>"; };
+		3F3351112A42D0E5000C959D /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		3F3351152A42D4C1000C959D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F3351162A43662D000C959D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		3F33511A2A4366AD000C959D /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		3F3351202A4387C4000C959D /* Engima.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Engima.xcdatamodel; sourceTree = "<group>"; };
+		3F3351222A43884C000C959D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3F3351262A439AB8000C959D /* StatDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatDetail.swift; sourceTree = "<group>"; };
+		3F3351282A43A18F000C959D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3F33512A2A43A4E6000C959D /* NumeralPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumeralPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +118,12 @@
 		3F3350E22A42CBDF000C959D /* Engima */ = {
 			isa = PBXGroup;
 			children = (
+				3F3351152A42D4C1000C959D /* Info.plist */,
+				3F33510E2A42D0E5000C959D /* AlertToast */,
 				3F3350E32A42CBDF000C959D /* EngimaApp.swift */,
-				3F3350E52A42CBDF000C959D /* ContentView.swift */,
+				3F3351242A4398EE000C959D /* Views */,
+				3F33511F2A4387C4000C959D /* Engima.xcdatamodeld */,
+				3F3351252A4398F4000C959D /* Controllers */,
 				3F3350E72A42CBE1000C959D /* Assets.xcassets */,
 				3F3350EC2A42CBE1000C959D /* Engima.entitlements */,
 				3F3350E92A42CBE1000C959D /* Preview Content */,
@@ -127,6 +154,38 @@
 				3F3351012A42CBE2000C959D /* EngimaUITestsLaunchTests.swift */,
 			);
 			path = EngimaUITests;
+			sourceTree = "<group>";
+		};
+		3F33510E2A42D0E5000C959D /* AlertToast */ = {
+			isa = PBXGroup;
+			children = (
+				3F33510F2A42D0E5000C959D /* BlurView.swift */,
+				3F3351102A42D0E5000C959D /* AlertToast.swift */,
+				3F3351112A42D0E5000C959D /* ActivityIndicator.swift */,
+			);
+			path = AlertToast;
+			sourceTree = "<group>";
+		};
+		3F3351242A4398EE000C959D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F3350E52A42CBDF000C959D /* ContentView.swift */,
+				3F3351162A43662D000C959D /* GameView.swift */,
+				3F33511A2A4366AD000C959D /* StatisticsView.swift */,
+				3F0ADFC22A43D955001840E2 /* SpeakNumber.swift */,
+				3F3351282A43A18F000C959D /* SettingsView.swift */,
+				3F33512A2A43A4E6000C959D /* NumeralPicker.swift */,
+				3F3351262A439AB8000C959D /* StatDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F3351252A4398F4000C959D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F3351222A43884C000C959D /* DataController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +319,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3350E62A42CBDF000C959D /* ContentView.swift in Sources */,
+				3F3351142A42D0E5000C959D /* ActivityIndicator.swift in Sources */,
 				3F3350E42A42CBDF000C959D /* EngimaApp.swift in Sources */,
+				3F33511B2A4366AD000C959D /* StatisticsView.swift in Sources */,
+				3F33512B2A43A4E6000C959D /* NumeralPicker.swift in Sources */,
+				3F3351272A439AB8000C959D /* StatDetail.swift in Sources */,
+				3F0ADFC32A43D955001840E2 /* SpeakNumber.swift in Sources */,
+				3F3351232A43884C000C959D /* DataController.swift in Sources */,
+				3F3351212A4387C4000C959D /* Engima.xcdatamodeld in Sources */,
+				3F3351132A42D0E5000C959D /* AlertToast.swift in Sources */,
+				3F3351172A43662D000C959D /* GameView.swift in Sources */,
+				3F3351122A42D0E5000C959D /* BlurView.swift in Sources */,
+				3F3351292A43A18F000C959D /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +494,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Engima/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -432,8 +505,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mano.Engima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,7 +528,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Engima/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -459,8 +539,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mano.Engima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -576,6 +660,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F33511F2A4387C4000C959D /* Engima.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F3351202A4387C4000C959D /* Engima.xcdatamodel */,
+			);
+			currentVersion = 3F3351202A4387C4000C959D /* Engima.xcdatamodel */;
+			path = Engima.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F3350D82A42CBDF000C959D /* Project object */;
 }

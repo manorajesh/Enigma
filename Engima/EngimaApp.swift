@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct EngimaApp: App {
+    let dataController = DataController()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }
